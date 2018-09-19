@@ -1,0 +1,674 @@
+Execute:
+> SELECT first_name, last_name From actor
+
++ --------------- + -------------- +
+| first_name      | last_name      |
++ --------------- + -------------- +
+| PENELOPE        | GUINESS        |
+| NICK            | WAHLBERG       |
+| ED              | CHASE          |
+| JENNIFER        | DAVIS          |
+| JOHNNY          | LOLLOBRIGIDA   |
+| BETTE           | NICHOLSON      |
+| GRACE           | MOSTEL         |
+| MATTHEW         | JOHANSSON      |
+| JOE             | SWANK          |
+| CHRISTIAN       | GABLE          |
+| ZERO            | CAGE           |
+| KARL            | BERRY          |
+| UMA             | WOOD           |
+| VIVIEN          | BERGEN         |
+| CUBA            | OLIVIER        |
+| FRED            | COSTNER        |
+| HELEN           | VOIGHT         |
+| DAN             | TORN           |
+| BOB             | FAWCETT        |
+| LUCILLE         | TRACY          |
+| KIRSTEN         | PALTROW        |
+| ELVIS           | MARX           |
+| SANDRA          | KILMER         |
+| CAMERON         | STREEP         |
+| KEVIN           | BLOOM          |
+| RIP             | CRAWFORD       |
+| JULIA           | MCQUEEN        |
+| WOODY           | HOFFMAN        |
+| ALEC            | WAYNE          |
+| SANDRA          | PECK           |
+| SISSY           | SOBIESKI       |
+| TIM             | HACKMAN        |
+| MILLA           | PECK           |
+| AUDREY          | OLIVIER        |
+| JUDY            | DEAN           |
+| BURT            | DUKAKIS        |
+| VAL             | BOLGER         |
+| TOM             | MCKELLEN       |
+| GOLDIE          | BRODY          |
+| JOHNNY          | CAGE           |
+| JODIE           | DEGENERES      |
+| TOM             | MIRANDA        |
+| KIRK            | JOVOVICH       |
+| NICK            | STALLONE       |
+| REESE           | KILMER         |
+| PARKER          | GOLDBERG       |
+| JULIA           | BARRYMORE      |
+| FRANCES         | DAY-LEWIS      |
+| ANNE            | CRONYN         |
+| NATALIE         | HOPKINS        |
+| GARY            | PHOENIX        |
+| CARMEN          | HUNT           |
+| MENA            | TEMPLE         |
+| PENELOPE        | PINKETT        |
+| FAY             | KILMER         |
+| DAN             | HARRIS         |
+| JUDE            | CRUISE         |
+| CHRISTIAN       | AKROYD         |
+| DUSTIN          | TAUTOU         |
+| HENRY           | BERRY          |
+| CHRISTIAN       | NEESON         |
+| JAYNE           | NEESON         |
+| CAMERON         | WRAY           |
+| RAY             | JOHANSSON      |
+| ANGELA          | HUDSON         |
+| MARY            | TANDY          |
+| JESSICA         | BAILEY         |
+| RIP             | WINSLET        |
+| KENNETH         | PALTROW        |
+| MICHELLE        | MCCONAUGHEY    |
+| ADAM            | GRANT          |
+| SEAN            | WILLIAMS       |
+| GARY            | PENN           |
+| MILLA           | KEITEL         |
+| BURT            | POSEY          |
+| ANGELINA        | ASTAIRE        |
+| CARY            | MCCONAUGHEY    |
+| GROUCHO         | SINATRA        |
+| MAE             | HOFFMAN        |
+| RALPH           | CRUZ           |
+| SCARLETT        | DAMON          |
+| WOODY           | JOLIE          |
+| BEN             | WILLIS         |
+| JAMES           | PITT           |
+| MINNIE          | ZELLWEGER      |
+| GREG            | CHAPLIN        |
+| SPENCER         | PECK           |
+| KENNETH         | PESCI          |
+| CHARLIZE        | DENCH          |
+| SEAN            | GUINESS        |
+| CHRISTOPHER     | BERRY          |
+| KIRSTEN         | AKROYD         |
+| ELLEN           | PRESLEY        |
+| KENNETH         | TORN           |
+| DARYL           | WAHLBERG       |
+| GENE            | WILLIS         |
+| MEG             | HAWKE          |
+| CHRIS           | BRIDGES        |
+| JIM             | MOSTEL         |
+| SPENCER         | DEPP           |
+| SUSAN           | DAVIS          |
+| WALTER          | TORN           |
+| MATTHEW         | LEIGH          |
+| PENELOPE        | CRONYN         |
+| SIDNEY          | CROWE          |
+| GROUCHO         | DUNST          |
+| GINA            | DEGENERES      |
+| WARREN          | NOLTE          |
+| SYLVESTER       | DERN           |
+| SUSAN           | DAVIS          |
+| CAMERON         | ZELLWEGER      |
+| RUSSELL         | BACALL         |
+| MORGAN          | HOPKINS        |
+| MORGAN          | MCDORMAND      |
+| HARRISON        | BALE           |
+| DAN             | STREEP         |
+| RENEE           | TRACY          |
+| CUBA            | ALLEN          |
+| WARREN          | JACKMAN        |
+| PENELOPE        | MONROE         |
+| LIZA            | BERGMAN        |
+| SALMA           | NOLTE          |
+| JULIANNE        | DENCH          |
+| SCARLETT        | BENING         |
+| ALBERT          | NOLTE          |
+| FRANCES         | TOMEI          |
+| KEVIN           | GARLAND        |
+| CATE            | MCQUEEN        |
+| DARYL           | CRAWFORD       |
+| GRETA           | KEITEL         |
+| JANE            | JACKMAN        |
+| ADAM            | HOPPER         |
+| RICHARD         | PENN           |
+| GENE            | HOPKINS        |
+| RITA            | REYNOLDS       |
+| ED              | MANSFIELD      |
+| MORGAN          | WILLIAMS       |
+| LUCILLE         | DEE            |
+| EWAN            | GOODING        |
+| WHOOPI          | HURT           |
+| CATE            | HARRIS         |
+| JADA            | RYDER          |
+| RIVER           | DEAN           |
+| ANGELA          | WITHERSPOON    |
+| KIM             | ALLEN          |
+| ALBERT          | JOHANSSON      |
+| FAY             | WINSLET        |
+| EMILY           | DEE            |
+| RUSSELL         | TEMPLE         |
+| JAYNE           | NOLTE          |
+| GEOFFREY        | HESTON         |
+| BEN             | HARRIS         |
+| MINNIE          | KILMER         |
+| MERYL           | GIBSON         |
+| IAN             | TANDY          |
+| FAY             | WOOD           |
+| GRETA           | MALDEN         |
+| VIVIEN          | BASINGER       |
+| LAURA           | BRODY          |
+| CHRIS           | DEPP           |
+| HARVEY          | HOPE           |
+| OPRAH           | KILMER         |
+| CHRISTOPHER     | WEST           |
+| HUMPHREY        | WILLIS         |
+| AL              | GARLAND        |
+| NICK            | DEGENERES      |
+| LAURENCE        | BULLOCK        |
+| WILL            | WILSON         |
+| KENNETH         | HOFFMAN        |
+| MENA            | HOPPER         |
+| OLYMPIA         | PFEIFFER       |
+| HARPO           | WILLIAMS       |
+| ALAN            | DREYFUSS       |
+| MICHAEL         | BENING         |
+| WILLIAM         | HACKMAN        |
+| JON             | CHASE          |
+| GENE            | MCKELLEN       |
+| LISA            | MONROE         |
+| ED              | GUINESS        |
+| JEFF            | SILVERSTONE    |
+| MATTHEW         | CARREY         |
+| DEBBIE          | AKROYD         |
+| RUSSELL         | CLOSE          |
+| HUMPHREY        | GARLAND        |
+| MICHAEL         | BOLGER         |
+| JULIA           | ZELLWEGER      |
+| RENEE           | BALL           |
+| ROCK            | DUKAKIS        |
+| CUBA            | BIRCH          |
+| AUDREY          | BAILEY         |
+| GREGORY         | GOODING        |
+| JOHN            | SUVARI         |
+| BURT            | TEMPLE         |
+| MERYL           | ALLEN          |
+| JAYNE           | SILVERSTONE    |
+| BELA            | WALKEN         |
+| REESE           | WEST           |
+| MARY            | KEITEL         |
+| JULIA           | FAWCETT        |
+| THORA           | TEMPLE         |
++ --------------- + -------------- +
+200 rows
+
+Execute:
+> SELECT upper( concat( a.first_name, ' ', a.last_name )) AS `Actor Name`FROM actor as a
+
++ --------------- +
+| Actor Name      |
++ --------------- +
+| PENELOPE GUINESS |
+| NICK WAHLBERG   |
+| ED CHASE        |
+| JENNIFER DAVIS  |
+| JOHNNY LOLLOBRIGIDA |
+| BETTE NICHOLSON |
+| GRACE MOSTEL    |
+| MATTHEW JOHANSSON |
+| JOE SWANK       |
+| CHRISTIAN GABLE |
+| ZERO CAGE       |
+| KARL BERRY      |
+| UMA WOOD        |
+| VIVIEN BERGEN   |
+| CUBA OLIVIER    |
+| FRED COSTNER    |
+| HELEN VOIGHT    |
+| DAN TORN        |
+| BOB FAWCETT     |
+| LUCILLE TRACY   |
+| KIRSTEN PALTROW |
+| ELVIS MARX      |
+| SANDRA KILMER   |
+| CAMERON STREEP  |
+| KEVIN BLOOM     |
+| RIP CRAWFORD    |
+| JULIA MCQUEEN   |
+| WOODY HOFFMAN   |
+| ALEC WAYNE      |
+| SANDRA PECK     |
+| SISSY SOBIESKI  |
+| TIM HACKMAN     |
+| MILLA PECK      |
+| AUDREY OLIVIER  |
+| JUDY DEAN       |
+| BURT DUKAKIS    |
+| VAL BOLGER      |
+| TOM MCKELLEN    |
+| GOLDIE BRODY    |
+| JOHNNY CAGE     |
+| JODIE DEGENERES |
+| TOM MIRANDA     |
+| KIRK JOVOVICH   |
+| NICK STALLONE   |
+| REESE KILMER    |
+| PARKER GOLDBERG |
+| JULIA BARRYMORE |
+| FRANCES DAY-LEWIS |
+| ANNE CRONYN     |
+| NATALIE HOPKINS |
+| GARY PHOENIX    |
+| CARMEN HUNT     |
+| MENA TEMPLE     |
+| PENELOPE PINKETT |
+| FAY KILMER      |
+| DAN HARRIS      |
+| JUDE CRUISE     |
+| CHRISTIAN AKROYD |
+| DUSTIN TAUTOU   |
+| HENRY BERRY     |
+| CHRISTIAN NEESON |
+| JAYNE NEESON    |
+| CAMERON WRAY    |
+| RAY JOHANSSON   |
+| ANGELA HUDSON   |
+| MARY TANDY      |
+| JESSICA BAILEY  |
+| RIP WINSLET     |
+| KENNETH PALTROW |
+| MICHELLE MCCONAUGHEY |
+| ADAM GRANT      |
+| SEAN WILLIAMS   |
+| GARY PENN       |
+| MILLA KEITEL    |
+| BURT POSEY      |
+| ANGELINA ASTAIRE |
+| CARY MCCONAUGHEY |
+| GROUCHO SINATRA |
+| MAE HOFFMAN     |
+| RALPH CRUZ      |
+| SCARLETT DAMON  |
+| WOODY JOLIE     |
+| BEN WILLIS      |
+| JAMES PITT      |
+| MINNIE ZELLWEGER |
+| GREG CHAPLIN    |
+| SPENCER PECK    |
+| KENNETH PESCI   |
+| CHARLIZE DENCH  |
+| SEAN GUINESS    |
+| CHRISTOPHER BERRY |
+| KIRSTEN AKROYD  |
+| ELLEN PRESLEY   |
+| KENNETH TORN    |
+| DARYL WAHLBERG  |
+| GENE WILLIS     |
+| MEG HAWKE       |
+| CHRIS BRIDGES   |
+| JIM MOSTEL      |
+| SPENCER DEPP    |
+| SUSAN DAVIS     |
+| WALTER TORN     |
+| MATTHEW LEIGH   |
+| PENELOPE CRONYN |
+| SIDNEY CROWE    |
+| GROUCHO DUNST   |
+| GINA DEGENERES  |
+| WARREN NOLTE    |
+| SYLVESTER DERN  |
+| SUSAN DAVIS     |
+| CAMERON ZELLWEGER |
+| RUSSELL BACALL  |
+| MORGAN HOPKINS  |
+| MORGAN MCDORMAND |
+| HARRISON BALE   |
+| DAN STREEP      |
+| RENEE TRACY     |
+| CUBA ALLEN      |
+| WARREN JACKMAN  |
+| PENELOPE MONROE |
+| LIZA BERGMAN    |
+| SALMA NOLTE     |
+| JULIANNE DENCH  |
+| SCARLETT BENING |
+| ALBERT NOLTE    |
+| FRANCES TOMEI   |
+| KEVIN GARLAND   |
+| CATE MCQUEEN    |
+| DARYL CRAWFORD  |
+| GRETA KEITEL    |
+| JANE JACKMAN    |
+| ADAM HOPPER     |
+| RICHARD PENN    |
+| GENE HOPKINS    |
+| RITA REYNOLDS   |
+| ED MANSFIELD    |
+| MORGAN WILLIAMS |
+| LUCILLE DEE     |
+| EWAN GOODING    |
+| WHOOPI HURT     |
+| CATE HARRIS     |
+| JADA RYDER      |
+| RIVER DEAN      |
+| ANGELA WITHERSPOON |
+| KIM ALLEN       |
+| ALBERT JOHANSSON |
+| FAY WINSLET     |
+| EMILY DEE       |
+| RUSSELL TEMPLE  |
+| JAYNE NOLTE     |
+| GEOFFREY HESTON |
+| BEN HARRIS      |
+| MINNIE KILMER   |
+| MERYL GIBSON    |
+| IAN TANDY       |
+| FAY WOOD        |
+| GRETA MALDEN    |
+| VIVIEN BASINGER |
+| LAURA BRODY     |
+| CHRIS DEPP      |
+| HARVEY HOPE     |
+| OPRAH KILMER    |
+| CHRISTOPHER WEST |
+| HUMPHREY WILLIS |
+| AL GARLAND      |
+| NICK DEGENERES  |
+| LAURENCE BULLOCK |
+| WILL WILSON     |
+| KENNETH HOFFMAN |
+| MENA HOPPER     |
+| OLYMPIA PFEIFFER |
+| HARPO WILLIAMS  |
+| ALAN DREYFUSS   |
+| MICHAEL BENING  |
+| WILLIAM HACKMAN |
+| JON CHASE       |
+| GENE MCKELLEN   |
+| LISA MONROE     |
+| ED GUINESS      |
+| JEFF SILVERSTONE |
+| MATTHEW CARREY  |
+| DEBBIE AKROYD   |
+| RUSSELL CLOSE   |
+| HUMPHREY GARLAND |
+| MICHAEL BOLGER  |
+| JULIA ZELLWEGER |
+| RENEE BALL      |
+| ROCK DUKAKIS    |
+| CUBA BIRCH      |
+| AUDREY BAILEY   |
+| GREGORY GOODING |
+| JOHN SUVARI     |
+| BURT TEMPLE     |
+| MERYL ALLEN     |
+| JAYNE SILVERSTONE |
+| BELA WALKEN     |
+| REESE WEST      |
+| MARY KEITEL     |
+| JULIA FAWCETT   |
+| THORA TEMPLE    |
++ --------------- +
+200 rows
+
+Execute:
+> SELECT a.actor_id, a.first_name, a.last_name from actor as a WHERE upper(a.first_name) = "JOE"
+
++ ------------- + --------------- + -------------- +
+| actor_id      | first_name      | last_name      |
++ ------------- + --------------- + -------------- +
+| 9             | JOE             | SWANK          |
+| NULL          | NULL            | NULL           |
++ ------------- + --------------- + -------------- +
+2 rows
+
+Execute:
+> SELECT actor_id, last_name FROM actor 
+WHERE UPPER( last_name ) LIKE "%GEN%"
+
++ ------------- + -------------- +
+| actor_id      | last_name      |
++ ------------- + -------------- +
+| 14            | BERGEN         |
+| 41            | DEGENERES      |
+| 107           | DEGENERES      |
+| 166           | DEGENERES      |
+| NULL          | NULL           |
++ ------------- + -------------- +
+5 rows
+
+Execute:
+> SELECT actor_id, last_name, first_name FROM actor 
+WHERE upper(last_name) LIKE "%IE%"
+Order BY last_name, first_name
+
++ ------------- + -------------- + --------------- +
+| actor_id      | last_name      | first_name      |
++ ------------- + -------------- + --------------- +
+| 82            | JOLIE          | WOODY           |
+| 136           | MANSFIELD      | ED              |
+| 34            | OLIVIER        | AUDREY          |
+| 15            | OLIVIER        | CUBA            |
+| 31            | SOBIESKI       | SISSY           |
+| NULL          | NULL           | NULL            |
++ ------------- + -------------- + --------------- +
+6 rows
+
+Execute:
+> SELECT country_id, country FROM country
+WHERE  country IN ("Afghanistan", "Bangladesh", "China")
+
++ --------------- + ------------ +
+| country_id      | country      |
++ --------------- + ------------ +
+| 1               | Afghanistan  |
+| 12              | Bangladesh   |
+| 23              | China        |
+| NULL            | NULL         |
++ --------------- + ------------ +
+4 rows
+
+Execute:
+> SELECT Last_name, Count(last_name)
+FROM actor
+GROUP BY Last_name
+
++ -------------- + --------------------- +
+| Last_name      | Count(last_name)      |
++ -------------- + --------------------- +
+| AKROYD         | 3                     |
+| ALLEN          | 3                     |
+| ASTAIRE        | 1                     |
+| BACALL         | 1                     |
+| BAILEY         | 2                     |
+| BALE           | 1                     |
+| BALL           | 1                     |
+| BARRYMORE      | 1                     |
+| BASINGER       | 1                     |
+| BENING         | 2                     |
+| BERGEN         | 1                     |
+| BERGMAN        | 1                     |
+| BERRY          | 3                     |
+| BIRCH          | 1                     |
+| BLOOM          | 1                     |
+| BOLGER         | 2                     |
+| BRIDGES        | 1                     |
+| BRODY          | 2                     |
+| BULLOCK        | 1                     |
+| CAGE           | 2                     |
+| CARREY         | 1                     |
+| CHAPLIN        | 1                     |
+| CHASE          | 2                     |
+| CLOSE          | 1                     |
+| COSTNER        | 1                     |
+| CRAWFORD       | 2                     |
+| CRONYN         | 2                     |
+| CROWE          | 1                     |
+| CRUISE         | 1                     |
+| CRUZ           | 1                     |
+| DAMON          | 1                     |
+| DAVIS          | 3                     |
+| DAY-LEWIS      | 1                     |
+| DEAN           | 2                     |
+| DEE            | 2                     |
+| DEGENERES      | 3                     |
+| DENCH          | 2                     |
+| DEPP           | 2                     |
+| DERN           | 1                     |
+| DREYFUSS       | 1                     |
+| DUKAKIS        | 2                     |
+| DUNST          | 1                     |
+| FAWCETT        | 2                     |
+| GABLE          | 1                     |
+| GARLAND        | 3                     |
+| GIBSON         | 1                     |
+| GOLDBERG       | 1                     |
+| GOODING        | 2                     |
+| GRANT          | 1                     |
+| GUINESS        | 3                     |
+| HACKMAN        | 2                     |
+| HARRIS         | 3                     |
+| HAWKE          | 1                     |
+| HESTON         | 1                     |
+| HOFFMAN        | 3                     |
+| HOPE           | 1                     |
+| HOPKINS        | 3                     |
+| HOPPER         | 2                     |
+| HUDSON         | 1                     |
+| HUNT           | 1                     |
+| HURT           | 1                     |
+| JACKMAN        | 2                     |
+| JOHANSSON      | 3                     |
+| JOLIE          | 1                     |
+| JOVOVICH       | 1                     |
+| KEITEL         | 3                     |
+| KILMER         | 5                     |
+| LEIGH          | 1                     |
+| LOLLOBRIGIDA   | 1                     |
+| MALDEN         | 1                     |
+| MANSFIELD      | 1                     |
+| MARX           | 1                     |
+| MCCONAUGHEY    | 2                     |
+| MCDORMAND      | 1                     |
+| MCKELLEN       | 2                     |
+| MCQUEEN        | 2                     |
+| MIRANDA        | 1                     |
+| MONROE         | 2                     |
+| MOSTEL         | 2                     |
+| NEESON         | 2                     |
+| NICHOLSON      | 1                     |
+| NOLTE          | 4                     |
+| OLIVIER        | 2                     |
+| PALTROW        | 2                     |
+| PECK           | 3                     |
+| PENN           | 2                     |
+| PESCI          | 1                     |
+| PFEIFFER       | 1                     |
+| PHOENIX        | 1                     |
+| PINKETT        | 1                     |
+| PITT           | 1                     |
+| POSEY          | 1                     |
+| PRESLEY        | 1                     |
+| REYNOLDS       | 1                     |
+| RYDER          | 1                     |
+| SILVERSTONE    | 2                     |
+| SINATRA        | 1                     |
+| SOBIESKI       | 1                     |
+| STALLONE       | 1                     |
+| STREEP         | 2                     |
+| SUVARI         | 1                     |
+| SWANK          | 1                     |
+| TANDY          | 2                     |
+| TAUTOU         | 1                     |
+| TEMPLE         | 4                     |
+| TOMEI          | 1                     |
+| TORN           | 3                     |
+| TRACY          | 2                     |
+| VOIGHT         | 1                     |
+| WAHLBERG       | 2                     |
+| WALKEN         | 1                     |
+| WAYNE          | 1                     |
+| WEST           | 2                     |
+| WILLIAMS       | 3                     |
+| WILLIS         | 3                     |
+| WILSON         | 1                     |
+| WINSLET        | 2                     |
+| WITHERSPOON    | 1                     |
+| WOOD           | 2                     |
+| WRAY           | 1                     |
+| ZELLWEGER      | 3                     |
++ -------------- + --------------------- +
+121 rows
+
+Execute:
+> SELECT Last_name, Count(last_name)
+FROM actor
+GROUP BY Last_name
+HAVING COUNT(last_name) >= 2
+
++ -------------- + --------------------- +
+| Last_name      | Count(last_name)      |
++ -------------- + --------------------- +
+| AKROYD         | 3                     |
+| ALLEN          | 3                     |
+| BAILEY         | 2                     |
+| BENING         | 2                     |
+| BERRY          | 3                     |
+| BOLGER         | 2                     |
+| BRODY          | 2                     |
+| CAGE           | 2                     |
+| CHASE          | 2                     |
+| CRAWFORD       | 2                     |
+| CRONYN         | 2                     |
+| DAVIS          | 3                     |
+| DEAN           | 2                     |
+| DEE            | 2                     |
+| DEGENERES      | 3                     |
+| DENCH          | 2                     |
+| DEPP           | 2                     |
+| DUKAKIS        | 2                     |
+| FAWCETT        | 2                     |
+| GARLAND        | 3                     |
+| GOODING        | 2                     |
+| GUINESS        | 3                     |
+| HACKMAN        | 2                     |
+| HARRIS         | 3                     |
+| HOFFMAN        | 3                     |
+| HOPKINS        | 3                     |
+| HOPPER         | 2                     |
+| JACKMAN        | 2                     |
+| JOHANSSON      | 3                     |
+| KEITEL         | 3                     |
+| KILMER         | 5                     |
+| MCCONAUGHEY    | 2                     |
+| MCKELLEN       | 2                     |
+| MCQUEEN        | 2                     |
+| MONROE         | 2                     |
+| MOSTEL         | 2                     |
+| NEESON         | 2                     |
+| NOLTE          | 4                     |
+| OLIVIER        | 2                     |
+| PALTROW        | 2                     |
+| PECK           | 3                     |
+| PENN           | 2                     |
+| SILVERSTONE    | 2                     |
+| STREEP         | 2                     |
+| TANDY          | 2                     |
+| TEMPLE         | 4                     |
+| TORN           | 3                     |
+| TRACY          | 2                     |
+| WAHLBERG       | 2                     |
+| WEST           | 2                     |
+| WILLIAMS       | 3                     |
+| WILLIS         | 3                     |
+| WINSLET        | 2                     |
+| WOOD           | 2                     |
+| ZELLWEGER      | 3                     |
++ -------------- + --------------------- +
+55 rows
+
